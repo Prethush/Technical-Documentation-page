@@ -7,7 +7,7 @@ p{
 }
 
 #navbar{
-    background-color: red;
+    background-color: rgb(168, 101, 38);
     height: 100%;
     position: fixed;
     top: 0;
@@ -22,6 +22,7 @@ p{
     position: absolute;
     height: 100%;
     left: 22vw;
+    line-height: 30px;
 
 }
 #navbar ul{
@@ -48,3 +49,9 @@ code{
     text-align: center;
     font-size: 35px;
 }
+@media (max-width: 580px)
+{
+    body{
+        font-size: 18px;
+    }
+}    
