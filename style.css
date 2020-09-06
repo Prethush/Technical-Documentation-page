@@ -1,0 +1,50 @@
+body{
+    position: relative;
+    font-size: 20px;
+}
+p{
+    
+}
+
+#navbar{
+    background-color: red;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 18vw;
+}
+
+#main-doc{
+
+    position: absolute;
+    height: 100%;
+    left: 22vw;
+
+}
+#navbar ul{
+    list-style: none;
+}
+
+#navbar li{
+    padding: 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+}
+code{
+    display: block;
+}
+
+.main-section header{
+    font-size: 30px;
+}
+
+#navbar header{
+    text-align: center;
+    font-size: 35px;
+}
